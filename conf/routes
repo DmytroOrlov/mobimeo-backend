@@ -1,0 +1,5 @@
+GET     /isDelayed/:line                      controllers.ApiController.isDelayed(line: String)
+
+GET     /next/:stop                           controllers.ApiController.next(stop: Int)
+
+GET     /find/:time/:x/:y                     controllers.ApiController.find(time: String, x: Int, y: Int)
